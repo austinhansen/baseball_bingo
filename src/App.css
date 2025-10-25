@@ -1,0 +1,67 @@
+.app {
+  width: 100%;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.app-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-primary {
+  background: #28a745;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #218838;
+}
+
+.btn-secondary {
+  background: #ffc107;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background: #e0a800;
+}
+
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 2rem;
+  }
+}
