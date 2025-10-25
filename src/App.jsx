@@ -5,7 +5,7 @@ import './App.css'
 
 // Define multiple pre-made item lists
 const ITEM_LISTS = {
-  myList: {
+  blueJaysAds: {
     name: 'Blue Jays Ads',
     items: [
       // Add your items here (minimum 24 items)
@@ -169,13 +169,13 @@ const ITEM_LISTS = {
   }
 }
 
-const DEFAULT_ITEMS = ITEM_LISTS.classic.items
+const DEFAULT_ITEMS = ITEM_LISTS.blueJaysAds.items
 
 function App() {
   const [items, setItems] = useState(DEFAULT_ITEMS)
   const [showCustomizer, setShowCustomizer] = useState(false)
   const [gameKey, setGameKey] = useState(0)
-  const [selectedList, setSelectedList] = useState('classic')
+  const [selectedList, setSelectedList] = useState('blueJaysAds')
 
   const handleSaveItems = (newItems) => {
     setItems(newItems)
