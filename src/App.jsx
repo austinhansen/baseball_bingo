@@ -6,7 +6,7 @@ import './App.css'
 // Define multiple pre-made item lists
 const ITEM_LISTS = {
   myList: {
-    name: 'My Custom List',
+    name: 'Blue Jays Ads',
     items: [
       // Add your items here (minimum 24 items)
       "Leon's",
@@ -29,7 +29,10 @@ const ITEM_LISTS = {
       "Subway",
       "Hallowin",
       "Tim Hortons",
-      "Twizzlers"
+      "Twizzlers",
+      "Ring of Fire Ontario",
+      "McDonald's",
+      "Blue Jays Slow-Mo Highlights"
     ]
   },
   classic: {

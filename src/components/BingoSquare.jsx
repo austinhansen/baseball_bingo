@@ -20,7 +20,7 @@ function BingoSquare({ item, isMarked, isFree, onClick }) {
       {isFree ? (
         <div className="blue-jays-logo">
           <img
-            src="https://upload.wikimedia.org/wikipedia/en/b/ba/Toronto_Blue_Jays_logo.svg"
+            src="/blue-jays-logo.svg"
             alt="Toronto Blue Jays"
           />
           <div className="free-text">FREE</div>
