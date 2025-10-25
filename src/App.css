@@ -10,9 +10,50 @@
 
 .app-header h1 {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   font-weight: 700;
+}
+
+.list-selector {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.list-selector label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.list-dropdown {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: white;
+  color: #003087;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+}
+
+.list-dropdown:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border-color: #ffc107;
+}
+
+.list-dropdown:focus {
+  outline: none;
+  border-color: #ffc107;
 }
 
 .button-group {
