@@ -47,6 +47,9 @@ jobs:
       - name: Add .nojekyll file
         run: touch dist/.nojekyll
 
+      - name: List dist contents
+        run: ls -laR dist
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -54,7 +57,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist directory
-          path: './dist'
+          path: dist
 
       - name: Deploy to GitHub Pages
         id: deployment
