@@ -31,8 +31,9 @@ const ITEM_LISTS = {
       "Tim Hortons",
       "Twizzlers",
       "Ring of Fire Ontario",
-      "McDonald's",
-      "Blue Jays Slow-Mo Highlights"
+      "BMO",
+      "Instacart",
+      "Bautista Spicy Chicken"
     ]
   },
   classic: {
